@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texas Tires Locations</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="locations-wrapper">
+    <!-- Sidebar: Location List -->
+    <aside class="locations-sidebar">
+      <button class="use-location" onclick="useCurrentLocation()">Use Current Location</button>
+      <div class="location-card" onclick="updateMap('Abilene, TX Texas Tires', this)">
+        <h3>Abilene, TX</h3>
+        <p>Texas Tires Abilene<br>2641 S 14th St</p>
+      </div>
+      <div class="location-card" onclick="updateMap('Amarillo, TX Texas Tires', this)">
+        <h3>Amarillo, TX</h3>
+        <p>Texas Tires Amarillo<br>1703 E Amarillo Blvd</p>
+      </div>
+      <div class="location-card" onclick="updateMap('Arlington, TX Texas Tires', this)">
+        <h3>Arlington, TX</h3>
+        <p>Texas Tires 33<br>2131 S Collins St</p>
+      </div>
+      <div class="location-card" onclick="updateMap('Arlington South, TX Texas Tires', this)">
+        <h3>Arlington South, TX</h3>
+        <p>Texas Tires Arlington<br>3021 S Cooper St</p>
+      </div>
+    </aside>
+    <!-- Map and Stats -->
+    <main class="map-display">
+      <iframe
+        id="dynamicMap"
+        src="https://maps.google.com/maps?q=Abilene,TX Texas Tires&output=embed"
+        width="100%" height="600" style="border:0;" allowfullscreen loading="lazy">
+      </iframe>
+      <section class="stats-box">
+        <h2>NATION WIDE</h2>
+        <div class="stats">
+          <div><h3>52</h3><p>Locations</p></div>
+          <div><h3>7</h3><p>States</p></div>
+          <div><h3>28</h3><p>Years</p></div>
+          <div><h3>#1</h3><p>In Off-Road Wheels, Tires & Suspension</p></div>
+        </div>
+        <p class="contact">Talk to us! <span>817 - 000 - 0000</span></p>
+        <button class="download-btn">Download Resource Kit</button>
+      </section>
+    </main>
+  </div>
+  <script src="assets/locations.js"></script>
+</body>
+</html>
