@@ -12,6 +12,8 @@
   padding: 20px;
   border-right: 2px solid #222;
   min-height: 600px;
+  box-sizing: border-box;
+  margin: 0;
 }
 .use-location {
   background: #FFFF00;
@@ -26,43 +28,48 @@
   cursor: pointer;
   margin-bottom: 20px;
 }
-.location-card {
+.location-card-two-columns {
   background: #111;
   border: 1px solid white;
-  border-radius: 20px;
+  border-radius: 50px;
   margin-bottom: 15px;
   padding: 15px;
   text-align: center;
   cursor: pointer;
   transition: 0.3s;
 }
-.location-card.active,
-.location-card:hover {
+.location-card-two-columns.active,
+.location-card-two-columns:hover {
   background: #FFFF00;
   color: black;
 }
-.location-card h3 {
+.location-card-two-columns h3 {
   margin: 0;
   font-size: 18px;
   text-transform: uppercase;
 }
-.location-card p {
+.location-card-two-columns p {
   font-size: 14px;
   margin-top: 5px;
   text-transform: uppercase;
+}
+.upper-col {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.lower-col {
+  font-size: 24px;
 }
 .map-display {
   flex: 1;
   background: #f8f8f8;
   position: relative;
-  padding: 30px;
 }
 .stats-box {
   background: #FFFF00;
   color: black;
   padding: 30px;
   text-align: center;
-  margin-top: 20px;
 }
 .stats {
   display: flex;
