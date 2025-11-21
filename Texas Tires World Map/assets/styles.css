@@ -53,7 +53,7 @@
 .location-search-btn {
   border-radius: 50px;
   text-align: center;
-  padding: 2px 2px;
+  padding: 2px 10px;
   display: flex;
   flex-direction: column;
   cursor: pointer;
