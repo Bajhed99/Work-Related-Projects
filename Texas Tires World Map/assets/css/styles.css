@@ -9,7 +9,7 @@
   background-color: #ffff0000;
 }
 .locations-sidebar-left-column {
-  flex: 1;
+  flex: 1.4;
   background: #000;
   padding-top: 30px;
   padding-left: 10px;
@@ -93,6 +93,7 @@
 .location-search-btn-wrapper {
   position: relative;
   z-index: 10;
+  width: 100%;
   background-color: transparent;
   padding: 3px;
   margin: 3px 0;
