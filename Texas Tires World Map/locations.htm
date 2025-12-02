@@ -7,45 +7,86 @@
   <link rel="stylesheet" href="assets\css\styles.css">
   <link rel="stylesheet" href="assets/css/all.min.css">
 </head>
-
 <body style="margin:0; background-color: black;">
-
   <div class="locations-wrapper-row">
-
     <div class="locations-sidebar-left-column">
       <h3 style="color: aliceblue; margin-bottom: 30px; text-align: center;">Find a Location Near You!</h3>
-     
-     
+      
       <!-- Use Current Location Button -->
-       
-      <div class="use-location-wrapper1">
-      <div class="use-location-wrapper2"><dvi><button class="use-location" onclick="useCurrentLocation()">Use Current Location</button></dvi><div class="location-dot-current-location">
-        <i class="fa-solid fa-location-dot"></i>
+       <div class="use-location-wrapper1">
+        <div class="use-location-wrapper2">
+          <div>
+            <button
+            class="use-location"
+            onclick="useCurrentLocation()">Use Current Location
+            </button>
+          </div>
+          <div class="location-dot-current-location">
+            <i class="fa-solid fa-location-dot">
+            </i>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="divider">
+        <br>
       </div>
 
+      <!-- Location Buttons -->
+       <!--HIDDEN MODAL-->
+       <div id="contactModal" class="modal">        
+        <div class="modal-content">
+          <span id="closeModal" class="close">&times;</span>
+          <h3 id="modalStoreName"></h3>
+          <p><a id="modalPhone" href="#"><i class="fa-solid fa-phone"></i></a></p>
+          <p><a id="modalEmail" href="#"><i class="fa-solid fa-envelope"></i></a></p>
+        </div>      
+      </div>
+      
+      <!--1st button-->
+      <button class="location-search-btn-wrapper"
+        data-location="1245 E. Seminary Dr. Fort Worth,Tx 76115"
+        data-phone="(817)-920-9012"
+        data-email="tt1@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 1 LLC</h3>
+            <div class="phone-icons">
+              <i class="fa-solid fa-phone">
+              </i>
+            </div>
+          </div>
+          <div class="lower-col">
+            <p>1245 E. Seminary Dr. Fort Worth, <br>Tx 76115</p>
+          </div>
+        </div>
+      </button>
 
-      <div class="divider"><br></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       
-      <!-- Location Buttons -->
-      <!--1st button-->
-      <button class="location-search-btn-wrapper" data-location="1245 E. Seminary Dr. Fort Worth,Tx 76115
-">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">HMO TEXAS TIRE 1 LLC
-</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>1245 E. Seminary Dr. Fort Worth, <br>Tx 76115</p>
-    </div>
-  </div>
-</button>
       <!--2nd button-->
       <button class="location-search-btn-wrapper" data-location="5034 Broadway Ave., Haltom City, TX 76117
 ">
