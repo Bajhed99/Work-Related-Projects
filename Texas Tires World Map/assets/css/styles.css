@@ -7,6 +7,7 @@
 }
 .modal-content {
   display: block;
+  border: #ffff00 3px solid;
   color: white ;
   position: relative;
   background: rgba(0, 0, 0, 0.5);
@@ -14,18 +15,19 @@
   backdrop-filter: blur(3px);
   margin: 15% auto;
   padding: 20px;
+  padding-left: 60px;
   width: 300px;
   border-top-left-radius: 100px;
   border-top-right-radius: 200px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 5px;
-  text-align: center;
+  text-align: left;
 }
 .modal-content p {
   margin-top: 0;
-  font-size: 14px;
-  color: #000;
+  font-size: 16px;  
+  color: white !important;
   text-decoration: none;
 }
 .close {
@@ -36,9 +38,11 @@
 }
 .modal-phone-btn, .modal-email-btn {
   border: none;
+  color: yellow !important;
   padding: 5px 10px;
   border-radius: 50px;
   font-weight: 600;
+  text-decoration: none !important;
   cursor: pointer;
   text-transform: uppercase;
   margin: 3px;
