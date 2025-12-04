@@ -7,46 +7,53 @@
 }
 .modal-content {
   display: block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;   
   border: #ffff00 3px solid;
-  color: white ;
+  color: #fff000 ;
   position: relative;
-  background: rgba(0, 0, 0, 0.5);
-  background-blend-mode: luminosity;
-  backdrop-filter: blur(3px);
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
   margin: 15% auto;
-  padding: 20px;
+  padding: 1px;
   padding-left: 60px;
+  padding-right: 60px;
+  width: 400px;
+  border-top-left-radius: 100px;
+  gap: 10px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 8px;
+  text-align: left;
+}
+
+.modal-content h3 {
+  display: block;
+  overflow-wrap: break-word; /* break long words */
+  word-wrap: break-word;     /* older browsers */
+  word-break: break-word;
   width: 300px;
   border-top-left-radius: 100px;
   border-top-right-radius: 200px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 5px;
-  text-align: left;
+  border-bottom-right-radius: 8px;
 }
-.modal-content p {
-  margin-top: 0;
-  font-size: 16px;  
+.modal-content a {
+  gap: 0px;
+  font-size: 18px;  
   color: white !important;
   text-decoration: none;
+  overflow-wrap: break-word; /* break long words */
+  word-wrap: break-word;     /* older browsers */
+  word-break: break-word;   
 }
+
 .close {
   float: right;
   display: none;
-  font-size: 20px;
-  cursor: pointer;
-}
-.modal-phone-btn, .modal-email-btn {
-  border: none;
-  color: yellow !important;
-  padding: 5px 10px;
-  border-radius: 50px;
-  font-weight: 600;
-  text-decoration: none !important;
-  cursor: pointer;
-  text-transform: uppercase;
-  margin: 3px;
-  transition: 0.3s;
 }
 .locations-wrapper-row {
   z-index: 1;
@@ -183,6 +190,7 @@
 }
 .upper-col {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
@@ -202,6 +210,11 @@
 .upper-col h3 {
   flex: 1;
   margin: 0;
+  flex-wrap: wrap;
+  text-wrap: break-word;
+  overflow-wrap: break-word; /* break long words */
+  word-wrap: break-word;     /* older browsers */
+  word-break: break-word;
 }
 .store-name {
   align-items: center;
@@ -218,6 +231,11 @@
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   text-decoration: underline;
+  flex-wrap: wrap;
+  text-wrap: break-word;
+  overflow-wrap: break-word; /* break long words */
+  word-wrap: break-word;     /* older browsers */
+  word-break: break-word;
 }
 .phone-icons {
   margin-left: auto;

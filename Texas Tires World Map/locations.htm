@@ -11,37 +11,31 @@
   <div class="locations-wrapper-row">
     <div class="locations-sidebar-left-column">
       <h3 style="color: aliceblue; margin-bottom: 30px; text-align: center;">Find a Location Near You!</h3>
-      
-      <!-- Use Current Location Button -->
-       <div class="use-location-wrapper1">
-        <div class="use-location-wrapper2">
-          <div>
-            <button
-            class="use-location"
-            onclick="useCurrentLocation()">Use Current Location
-            </button>
-          </div>
-          <div class="location-dot-current-location">
-            <i class="fa-solid fa-location-dot">
-            </i>
+        <!-- Use Current Location Button -->
+        <div class="use-location-wrapper1">
+          <div class="use-location-wrapper2">
+            <div>
+              <button
+                class="use-location"
+                onclick="useCurrentLocation()">Use Current Location
+              </button>
+            </div>
+              <div class="location-dot-current-location">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
           </div>
         </div>
-      </div>
-      <div class="divider">
-        <br>
-      </div>
-
-      <!-- Location Buttons -->
+      <div class="divider"><br></div>
+        <!--Location Buttons-->
        <!--HIDDEN MODAL-->
-       <div id="contactModal" class="modal">        
-        <div class="modal-content">
+       <div id="contactModal" class="modal">
+          <div class="modal-content">
           <span id="closeModal" class="close">&times;</span>
           <h3 id="modalStoreName"></h3>
           <p><a id="modalPhone" href="#"><i class="fa-solid fa-phone"></i></a></p>
           <p><a id="modalEmail" href="#"><i class="fa-solid fa-envelope"></i></a></p>
-        </div>      
+        </div>     
       </div>
-      
       <!--1st button-->
       <button class="location-search-btn-wrapper"
         data-location="1245 E. Seminary Dr. Fort Worth,Tx 76115"
@@ -50,328 +44,642 @@
         <div class="location-search-btn">
           <div class="upper-col">
             <h3 class="store-name">HMO TEXAS TIRE 1 LLC</h3>
-            <div class="phone-icons">
-              <i class="fa-solid fa-phone">
-              </i>
-            </div>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
           </div>
-          <div class="lower-col">
-            <p>1245 E. Seminary Dr. Fort Worth, <br>Tx 76115</p>
+          <div class="lower-col"><p>1245 E. Seminary Dr. Fort Worth, <br>Tx 76115</p></div>
+        </div>
+      </button>
+      <!--2nd button-->
+      <button class="location-search-btn-wrapper"
+        data-location="5034 Broadway Ave., Haltom City, TX 76117"
+        data-phone="(817) 834-8100"
+        data-email="tt2@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 2 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
           </div>
+          <div class="lower-col"><p>5034 Broadway Ave.<br>Haltom City, TX 76117</p></div>
+        </div>
+      </button>
+    
+      <!--3rd button-->
+      <button class="location-search-btn-wrapper"
+        data-location="100 W. 7th Ave., Corsicana, TX 75110"
+        data-phone="(903)-874-8577"
+        data-email="tt3@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 3 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>100 W. 7th Ave.<br>Corsicana, TX 75110</p></div>
+        </div>
+      </button>
+      
+      <!--4th button-->
+      <button class="location-search-btn-wrapper"
+        data-location="836 S Saginaw Blvd, Saginaw, TX 76179"
+        data-phone="(817)-834-0040 | (682)-703-1696"
+        data-email="tt4@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 4 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>836 S Saginaw Blvd<br>Saginaw, TX 76179</p></div>
+        </div>
+      </button>
+    
+      <!--5th button-->
+      <button class="location-search-btn-wrapper"
+        data-location="1055 E. Seminary Dr., Fort Worth, TX 76115"
+        data-phone="(817)-924-7400"
+        data-email="tt5@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">ALWAHBAN TEXAS TIRE 5 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>1055 E. Seminary Dr.<br>Fort Worth, TX 76115</p></div>
+        </div>
+      </button>
+    
+      <!--6th button-->
+
+      <!--7th button-->
+      <button class="location-search-btn-wrapper"
+        data-location="1820 N. Beach St., Haltom City, TX 76111"
+        data-phone="(817)-838-6769"
+        data-email="tt7@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">ALWAHBAN TEXAS TIRE 7 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>1820 N. Beach St.<br>Haltom City, TX 76111</p></div>
         </div>
       </button>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-      <!--2nd button-->
-      <button class="location-search-btn-wrapper" data-location="5034 Broadway Ave., Haltom City, TX 76117
-">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">HMO TEXAS TIRE 2 LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>5034 Broadway Ave., Haltom City, <br>TX 76117</p>
-    </div>
-  </div>
-</button>
-      <!--3rd button-->
-      <button class="location-search-btn-wrapper" data-location="100 W. 7th Ave., Corsicana, TX 75110
-">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">HMO TEXAS TIRE 3 LLC
-</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>100 W. 7th Ave., Corsicana, <br>TX 75110</p>
-    </div>
-  </div>
-</button>
-      <!--4th button-->
-      <button class="location-search-btn-wrapper" data-location="836 S Saginaw blvd Saginaw Tx 76179
-">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">HMO TEXAS TIRE 4 LLC
-</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>836 S Saginaw blvd Saginaw<br> Tx 76179</p>
-    </div>
-  </div>
-</button>
-      <!--5th button-->
-      <button class="location-search-btn-wrapper" data-location="1055 E. Seminary Dr. , Fort Worth, TX 76115">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 5 LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>1055 E. Seminary Dr. , Fort Worth, <br>TX 76115</p>
-    </div>
-  </div>
-</button>
-      <!--6th button-->
-      <button class="location-search-btn-wrapper" data-location="_">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">-</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>_<br>_</p>
-    </div>
-  </div>
-</button>
-      <!--7th button-->
-      <button class="location-search-btn-wrapper" data-location="1820 N. Beach st. , Haltom City, TX 76111">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 7 LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>1820 N. Beach st. , Haltom City,<br>TX 76111</p>
-    </div>
-  </div>
-</button>
       <!--8th button-->
-      <button class="location-search-btn-wrapper" data-location="6112 Denton Hwy., Watauga, TX 76148">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 8 LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>6112 Denton Hwy., Watauga, <br>TX 76148</p>
-    </div>
-  </div>
-</button>
+      <button class="location-search-btn-wrapper"
+        data-location="6112 Denton Hwy., Watauga, TX 76148"
+        data-phone="(817)-503-2104"
+        data-email="tt8@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">ALWAHBAN TEXAS TIRE 8 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>6112 Denton Hwy.<br>Watauga, TX 76148</p></div>
+        </div>
+      </button>
+    
       <!--9th button-->
-      <button class="location-search-btn-wrapper" data-location="3140 Denton Hwy, Haltom City, TX 76117">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">HMO TEXAS TIRE 9 LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>3140 Denton Hwy, Haltom City, <br>TX 76117</p>
-    </div>
-  </div>
-</button>
+      <button class="location-search-btn-wrapper"
+        data-location="3140 Denton Hwy., Haltom City, TX 76117"
+        data-phone="(817)-386-2444"
+        data-email="tt9@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 9 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>3140 Denton Hwy.<br>Haltom City, TX 76117</p></div>
+        </div>
+      </button>
+    
       <!--10th button-->
-      <button class="location-search-btn-wrapper" data-location="5643 Rufe Snow Dr., NRH, TX 76180">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 10 LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>5643 Rufe Snow Dr., NRH, <br>TX 76180</p>
-    </div>
-  </div>
-</button>
+      <button class="location-search-btn-wrapper"
+        data-location="5643 Rufe Snow Dr., NRH, TX 76180"
+        data-phone="(817)-576-3955"
+        data-email="tt10@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">ALWAHBAN TEXAS TIRE 10 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>5643 Rufe Snow Dr.<br>North Richland Hills, TX 76180</p></div>
+        </div>
+      </button>
       <!--11th button-->
-      <button class="location-search-btn-wrapper" data-location="1322 S. State Hwy. 121, Lewisville, TX 75067">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 11 LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>1322 S. State Hwy. 121, Lewisville, <br>TX 75067</p>
-    </div>
-  </div>
-</button>
+      <button class="location-search-btn-wrapper"
+              data-location="1554 E. Henderson St., Cleburne, TX 76031"
+              data-phone="(817)-526-5757"
+              data-email="tt12@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 12 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>1554 E. Henderson St., Cleburne, <br>TX 76031</p></div>
+        </div>
+      </button>
+      
       <!--12th button-->
-      <button class="location-search-btn-wrapper" data-location="1554 E. Henderson St. , Cleburne, TX 76031">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">HMO TEXAS TIRE 12 LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>1554 E. Henderson St. , Cleburne, <br>TX 76031</p>
-    </div>
-  </div>
-</button>
+      <button class="location-search-btn-wrapper"
+              data-location="501 S. Main St., Weatherford, Tx 76086"
+              data-phone="817-550-6090"
+              data-email="tt15@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">ALWAHBAN TEXAS TIRE 15 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>501 S. Main St., Weatherford, <br>Tx 76086</p></div>
+        </div>
+      </button>
+      
       <!--13th button-->
-      <button class="location-search-btn-wrapper" data-location="_">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">-</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>_<br>_</p>
-    </div>
-  </div>
-</button>
+      <button class="location-search-btn-wrapper"
+              data-location="5003 Trail Lake Dr., Fort Worth, TX 76133"
+              data-phone="(682)-707-5757"
+              data-email="tt16@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">ALWAHBAN TEXAS TIRE 16 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>5003 Trail Lake Dr., Fort Worth, <br>TX 76133</p></div>
+        </div>
+      </button>
+      
       <!--14th button-->
-      <button class="location-search-btn-wrapper" data-location="_">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">-</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>_<br>_</p>
-    </div>
-  </div>
-</button>
+      <button class="location-search-btn-wrapper"
+              data-location="241 N.E. Wilshire Blvd., Burleson, TX 76028"
+              data-phone="(817)-295-0680"
+              data-email="tt18@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">ALWAHBAN TEXAS TIRE 18LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>241 N.E. Wilshire Blvd., Burleson, <br>TX 76028</p></div>
+        </div>
+      </button>
+      
       <!--15th button-->
-      <button class="location-search-btn-wrapper" data-location="501 S. Main St., Weatherford, Tx 76086">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 15 LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>501 S. Main St., Weatherford, <br>Tx 76086</p>
-    </div>
-  </div>
-</button>
+      <button class="location-search-btn-wrapper"
+              data-location="3401 Memorial Dr., Waco, TX 76711"
+              data-phone="(254)-753-0707"
+              data-email="tt19@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 19 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>3401 Memorial Dr., Waco, <br>TX 76711</p></div>
+        </div>
+      </button>
+      
       <!--16th button-->
-      <button class="location-search-btn-wrapper" data-location="5003 Trail Lake Dr., Fort Worth, TX 76133">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 16 LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>5003 Trail Lake Dr., Fort Worth, <br>TX 76133</p>
-    </div>
-  </div>
-</button>
+      <button class="location-search-btn-wrapper"
+              data-location="2641 S. 14th St., Abilene, TX 79605"
+              data-phone="(325)-307-7648"
+              data-email="tt20@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 20 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>2641 S. 14th St., Abilene, <br>TX 79605</p></div>
+        </div>
+      </button>
+      
+      <!--17th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="108 S. Fort Hood St., Killeen, Tx 76541"
+              data-phone="(254) 213-2649"
+              data-email="tt21@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 21 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>108 S. Fort Hood St., Killeen, <br>Tx 76541</p></div>
+        </div>
+      </button>
+      
       <!--18th button-->
-      <button class="location-search-btn-wrapper" data-location="241 N.E. Wilshire Blvd., Burleson, TX 76028">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 18LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>241 N.E. Wilshire Blvd., Burleson,<br> TX 76028</p>
-    </div>
-  </div>
-</button>
-<!--19th button-->
-      <button class="location-search-btn-wrapper" data-location="241 N.E. Wilshire Blvd., Burleson, TX 76028">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 18LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>241 N.E. Wilshire Blvd., Burleson,<br> TX 76028</p>
-    </div>
-  </div>
-</button>
-<!--20th button-->
-      <button class="location-search-btn-wrapper" data-location="241 N.E. Wilshire Blvd., Burleson, TX 76028">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 18LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>241 N.E. Wilshire Blvd., Burleson,<br> TX 76028</p>
-    </div>
-  </div>
-</button>
-<!--21st button-->
-      <button class="location-search-btn-wrapper" data-location="241 N.E. Wilshire Blvd., Burleson, TX 76028">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 18LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>241 N.E. Wilshire Blvd., Burleson,<br> TX 76028</p>
-    </div>
-  </div>
-</button>
-<!--22nd button-->
-      <button class="location-search-btn-wrapper" data-location="241 N.E. Wilshire Blvd., Burleson, TX 76028">
-  <div class="location-search-btn">
-    <div class="upper-col">
-      <h3 class="store-name">ALWAHBAN TEXAS TIRE 18LLC</h3>
-      <div class="phone-icons">
-        <i class="fa-solid fa-phone"></i>
-      </div>
-    </div>
-    <div class="lower-col">
-      <p>241 N.E. Wilshire Blvd., Burleson,<br> TX 76028</p>
-    </div>
-  </div>
-</button>
+      <button class="location-search-btn-wrapper"
+              data-location="2106 E. US Hwy 377, Granbury, TX 76049"
+              data-phone="682-936-2814 | 682-936-2756"
+              data-email="tt22@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 22 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>2106 E. US Hwy 377, Granbury, <br>TX 76049</p></div>
+        </div>
+      </button>
+      
+      <!--19th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="110 N. Hwy 77, Waxahachie, TX 75165"
+              data-phone="(214) 980-1006"
+              data-email="tt23@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">ALWAHBAN TEXAS TIRE 23LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>110 N. Hwy 77, Waxahachie, <br>TX 75165</p></div>
+        </div>
+      </button>
+      
+      <!--20th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="3209 Kemp Blvd., Wichita Falls, TX 76308"
+              data-phone="(940) 386-3021"
+              data-email="tt24@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 24 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>3209 Kemp Blvd., Wichita Falls, <br>TX 76308</p></div>
+        </div>
+      </button>
+      
+      <!--21st button-->
+      <button class="location-search-btn-wrapper"
+              data-location="4707 Old Jacksboro Hwy., Wichita Falls, Tx 76302"
+              data-phone="(940) 234-0041 | (940) 234-0042"
+              data-email="tt25@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 25 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>4707 Old Jacksboro Hwy., Wichita Falls, <br>Tx 76302</p></div>
+        </div>
+      </button>
+      
+      <!--22nd button-->
+      <button class="location-search-btn-wrapper"
+              data-location="2519 E. SE Loop 323, Tyler, Tx 75701"
+              data-phone="(903) 630-7095"
+              data-email="tt26@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 26 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>2519 E. SE Loop 323, Tyler, <br>Tx 75701</p></div>
+        </div>
+      </button>
+      
+      <!--23rd button-->
+      <button class="location-search-btn-wrapper"
+              data-location="3304 Fredericksburg Rd, San Antonio, TX 78201"
+              data-phone="(210)-442-8335 | (210)-442-8258"
+              data-email="tt27@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 27 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>3304 Fredericksburg Rd, San Antonio, <br>TX 78201</p></div>
+        </div>
+      </button>
+      
+      <!--24th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="3504 n. State Line Ave., Texarkana, AR 71854-2670"
+              data-phone="(870) 216-2329"
+              data-email="tt28@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 28 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>3504 n. State Line Ave., Texarkana, <br>AR 71854-2670</p></div>
+        </div>
+      </button>
+      
+      <!--25th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="801 & 819 N. County Rd. West, Odessa, TX 79763"
+              data-phone="(432) 653-0116  | (432) 653-0088"
+              data-email="tt29@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 29 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>801 & 819 N. County Rd. West, Odessa, <br>TX 79763</p></div>
+        </div>
+      </button>
+      
+      <!--26th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="7535 N Lamar Blvd. Austin, TX. 78752"
+              data-phone="(512) 433-6863  | (512) 433-6864"
+              data-email="tt30@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">ALWAHBAN TEXAS TIRE 30 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>7535 N Lamar Blvd. Austin, <br>TX 78752</p></div>
+        </div>
+      </button>
+      
+      <!--27th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="2614 50th St. Lubbock, Tx 79413"
+              data-phone="(806)-368-9706 | (806)-368-9707"
+              data-email="tt31@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO  TEXAS TIRE 31 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>2614 50th St. Lubbock, <br>Tx 79413</p></div>
+        </div>
+      </button>
+      
+      <!--28th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="7849 E. Admiral Place N., Tulsa, OK 74115"
+              data-phone="918-992-5140"
+              data-email="tt32@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 32 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>7849 E. Admiral Place N., Tulsa, <br>OK 74115</p></div>
+        </div>
+      </button>
+      <!--29th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="2131 S Collins St., Arlington,Tx, 76010"
+              data-phone="(817) 583-6161"
+              data-email="tt33@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 33 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>2131 S Collins St., Arlington, <br>Tx 76010</p></div>
+        </div>
+      </button>
+      
+      <!--30th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="1458 South St. Beaumont, Tx 77701"
+              data-phone="409-730-7089"
+              data-email="tt34@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 34 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>1458 South St., Beaumont, <br>Tx 77701</p></div>
+        </div>
+      </button>
+      
+      <!--31st button-->
+      <button class="location-search-btn-wrapper"
+              data-location="1703 E. Amarillo Blvd, Amarillo TX 79107"
+              data-phone="806-418-6077 | 806-418-6078"
+              data-email="tt35@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 35 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>1703 E. Amarillo Blvd, Amarillo, <br>TX 79107</p></div>
+        </div>
+      </button>
+      
+      <!--32nd button-->
+      <button class="location-search-btn-wrapper"
+              data-location="1017 W. Tyler ave , Harlingen Tx 78550"
+              data-phone="956-230-5300"
+              data-email="tt36@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">ALWAHBAN TEXAS TIRE 36 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>1017 W. Tyler Ave, Harlingen, <br>Tx 78550</p></div>
+        </div>
+      </button>
+      
+      <!--33rd button-->
+      <button class="location-search-btn-wrapper"
+              data-location="100 W. Marshall Ave Longview Tx 75601"
+              data-phone="430-625-7340"
+              data-email="tt37@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 37 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>100 W. Marshall Ave, Longview, <br>Tx 75601</p></div>
+        </div>
+      </button>
+      
+      <!--34th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="2324 W. Wall St., Midland, Tx 79701"
+              data-phone="432-695-9984 | 432-695-9985"
+              data-email="tt38@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 38 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>2324 W. Wall St., Midland, <br>Tx 79701</p></div>
+        </div>
+      </button>
+      
+      <!--35th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="1804 Fort Worth Dr. Denton, Tx 76205"
+              data-phone="940-218-6264"
+              data-email="tt39@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 39 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>1804 Fort Worth Dr., Denton, <br>Tx 76205</p></div>
+        </div>
+      </button>
+      
+      <!--36th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="700 W DEBBIE LN MANSFIELD TX"
+              data-phone="682-400-8555"
+              data-email="tt40@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 40 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>700 W Debbie Ln, Mansfield, <br>TX</p></div>
+        </div>
+      </button>
+      
+      <!--37th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="1521 Texoma Pkwy Sherman Tx 75090-3805"
+              data-phone="903-487-0756"
+              data-email="tt41@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 41 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>1521 Texoma Pkwy, Sherman, <br>Tx 75090-3805</p></div>
+        </div>
+      </button>
+      
+      <!--38th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="3907 N Grimes St Hobbs NM 88240"
+              data-phone="575-492-0923 | 575-492-1266"
+              data-email="tt42@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 42 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>3907 N Grimes St, Hobbs, <br>NM 88240</p></div>
+        </div>
+      </button>
+      
+      <!--39th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="8946 N 7th St Phoenix AZ 85020"
+              data-phone="602-331-2420 | 602-331-2443"
+              data-email="tt44@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 44 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>8946 N 7th St, Phoenix, <br>AZ 85020</p></div>
+        </div>
+      </button>
+      
+      <!--40th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="3416 N Garfield Ave. Loveland CO 80538"
+              data-phone="970-776-9904 | 970-800-3375"
+              data-email="tt45@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 45 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>3416 N Garfield Ave., Loveland, <br>CO 80538</p></div>
+        </div>
+      </button>
+      
+      <!--41st button-->
+      <button class="location-search-btn-wrapper"
+              data-location="2707 S Texas Ave.  Bryan Tx 77802"
+              data-phone="979-485-9212 | 979-485-9213"
+              data-email="tt46@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 46 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>2707 S Texas Ave., Bryan, <br>Tx 77802</p></div>
+        </div>
+      </button>
+      
+      <!--42nd button-->
+      <button class="location-search-btn-wrapper"
+              data-location="100 Lincoln St, Pueblo CO 81004"
+              data-phone="719-924-8586 | 719-225-8738"
+              data-email="tt47@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 47 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>100 Lincoln St, Pueblo, <br>CO 81004</p></div>
+        </div>
+      </button>
+      
+      <!--43rd button-->
+      <button class="location-search-btn-wrapper"
+              data-location="113 W Euless BLVD, Euless TX  76040"
+              data-phone="682-503-6144"
+              data-email="tt48@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 48 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>113 W Euless Blvd, Euless, <br>TX 76040</p></div>
+        </div>
+      </button>
+      
+      <!--44th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="2033 N Highland Ave. Jackson TN 38305"
+              data-phone="731-736-1980 |731-736-1973"
+              data-email="tt50@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 50 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>2033 N Highland Ave., Jackson, <br>TN 38305</p></div>
+        </div>
+      </button>
+      
+      <!--45th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="1300 E Alameda St, Norman OK 73071"
+              data-phone="405-857-8378 | 405-857-8548"
+              data-email="tt51@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 51 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>1300 E Alameda St, Norman, <br>OK 73071</p></div>
+        </div>
+      </button>
+      
+      <!--46th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="2519 lakeside Dr.  Lynchburg VA 24501"
+              data-phone="434-616-6967|434-616-6972"
+              data-email="tt52@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 52 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>2519 Lakeside Dr., Lynchburg, <br>VA 24501</p></div>
+        </div>
+      </button>
+      
+      <!--47th button-->
+      <button class="location-search-btn-wrapper"
+              data-location="1211- 1213 E Palm Valley Blvd, Round Rock, TX 78664"
+              data-phone="512-527-3293 | 737-209-0314"
+              data-email="tt53@texastirescustoms.com">
+        <div class="location-search-btn">
+          <div class="upper-col">
+            <h3 class="store-name">HMO TEXAS TIRE 53 LLC</h3>
+            <div class="phone-icons"><i class="fa-solid fa-phone"></i></div>
+          </div>
+          <div class="lower-col"><p>1211-1213 E Palm Valley Blvd, Round Rock, <br>TX 78664</p></div>
+        </div>
+      </button>
+      
+      <!--end of the location buttons-->
     </div>
 <!-- Map and Stats -->
     <div class="map-display">
