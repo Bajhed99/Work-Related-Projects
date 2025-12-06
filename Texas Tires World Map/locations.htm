@@ -9,6 +9,11 @@
 </head>
 <body style="margin:0; background-color: black;">
   <div class="locations-wrapper-row">
+    <!-- Hamburger Button -->
+<div class="hamburger" onclick="toggleSidebar()">
+  <i class="fa-solid fa-bars"></i>
+</div>
+
     <div class="locations-sidebar-left-column">
       <h3 style="color: aliceblue; margin-bottom: 30px; text-align: center;">Find a Location Near You!</h3>
         <!-- Use Current Location Button -->
@@ -702,5 +707,11 @@
     </div>
   </div>
   <script src="assets/locations.js"></script>
+  <script>
+    function toggleSidebar() {
+      document.querySelector('.locations-sidebar-left-column')
+              .classList.toggle('active');
+    }
+  </script>
 </body>
 </html>

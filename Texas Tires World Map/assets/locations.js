@@ -62,3 +62,14 @@ function useCurrentLocation() {
     alert('Geolocation is not supported by your browser.');
   }
 }
+const locationButtons = document.querySelectorAll('.location-search-btn-wrapper');
+
+locationButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Remove active class from all buttons
+    locationButtons.forEach(btn => btn.classList.remove('active'));
+
+    // Add active class to the clicked button
+    button.classList.add('active');
+  });
+});
